@@ -14,7 +14,7 @@ while True:
     elif op == "2":
         listar()
     elif op == "3":
-        nome = input("digite o nome do produto:") 
+        nome = input("digite o nome do produto: ") 
         quantidade = input("digite a nova quantidade desejada:") 
         alterar(nome , quantidade)      
     elif op == "4":
